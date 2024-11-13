@@ -1,0 +1,32 @@
+@model List<Bread> //Value from the form to th
+
+<p>Get All Pizza</p>
+
+<div>
+<table class="table table-border table-responsive">
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+<th>IsAvailable</th>
+<th>View</th>
+<th>Update</th>
+<th>Delete</th>
+</tr>
+</thead>
+
+<tbody>
+@foreach  (var item in Model)
+{
+   <tr>
+    <td>@item.Name</td>
+    <td>@item.Description</td>
+    <td>@item.IsAvailable</td>
+    <td><a asp-controller = "Bread" asp-action = "GetBread" asp-route-id = "@item.Id" >Details</a></td>
+    <td><a asp-controller = "Bread" asp-action = "UpdateBread" asp-route-id = "@item.Id" >Edit</a></td>
+    <td><a asp-controller = "Bread" asp-action = "DeleteBread" asp-route-id = "@item.Id" >Delete</a></td>
+   </tr>
+}
+</tbody>
+</table>
+</div>

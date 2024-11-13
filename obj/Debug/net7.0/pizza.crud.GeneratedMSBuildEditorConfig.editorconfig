@@ -1,0 +1,105 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = pizza.crud
+build_property.RootNamespace = pizza.crud
+build_property.ProjectDir = C:\Users\HP\Desktop\pizza.crud\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\HP\Desktop\pizza.crud
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/HP/Desktop/pizza.crud/Views/Biscuit/AddBiscuit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmlzY3VpdFxBZGRCaXNjdWl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Desktop/pizza.crud/Views/Biscuit/DeleteBiscuit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmlzY3VpdFxEZWxldGVCaXNjdWl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Desktop/pizza.crud/Views/Biscuit/GetAllBiscuit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmlzY3VpdFxHZXRBbGxCaXNjdWl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Desktop/pizza.crud/Views/Biscuit/GetBiscuit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmlzY3VpdFxHZXRCaXNjdWl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Desktop/pizza.crud/Views/Biscuit/UpdateBiscuit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmlzY3VpdFxVcGRhdGVCaXNjdWl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Desktop/pizza.crud/Views/Bread/AddBread.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnJlYWRcQWRkQnJlYWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Desktop/pizza.crud/Views/Bread/DeleteBread.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnJlYWRcRGVsZXRlQnJlYWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Desktop/pizza.crud/Views/Bread/GetAllBread.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnJlYWRcR2V0QWxsQnJlYWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Desktop/pizza.crud/Views/Bread/GetBread.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnJlYWRcR2V0QnJlYWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Desktop/pizza.crud/Views/Bread/UpdateBread.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnJlYWRcVXBkYXRlQnJlYWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Desktop/pizza.crud/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Desktop/pizza.crud/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Desktop/pizza.crud/Views/Pizza/AddPizza.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGl6emFcQWRkUGl6emEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Desktop/pizza.crud/Views/Pizza/DeletePizza.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGl6emFcRGVsZXRlUGl6emEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Desktop/pizza.crud/Views/Pizza/GetAllPizza.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGl6emFcR2V0QWxsUGl6emEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Desktop/pizza.crud/Views/Pizza/GetPizza.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGl6emFcR2V0UGl6emEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Desktop/pizza.crud/Views/Pizza/UpdatePizza.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGl6emFcVXBkYXRlUGl6emEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Desktop/pizza.crud/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Desktop/pizza.crud/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Desktop/pizza.crud/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Desktop/pizza.crud/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Desktop/pizza.crud/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-pzh8w37evu

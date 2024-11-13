@@ -1,0 +1,116 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+  background-color: rgb(67, 52, 150);
+}
+
+/* .bisc
+{
+  background-color: rgb(151, 151, 168) ; 
+}
+
+.item {
+  flex-basis: 20%;
+  text-align: center;
+  background-clip: rgb(24, 21, 21);
+  color: #fff;
+  border: 1px solid white;
+  border-radius: 5px;
+  flex-direction: column;
+  justify-content: center;
+  height: 10cm;
+     width: 7cm;
+     margin: 30px;
+     padding: 30px;
+ }
+
+ .flex{
+   background-color: black;
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   display: flex;
+   padding: 80px 80px;
+   align-content: center;
+   align-items: center;
+   align-self: center;
+   height: 100%;
+
+ }
+
+ .item:hover{
+     transform: skew(2sec);
+     transition: 2s;
+     background-color: rgb(228, 20, 89);
+ }
+
+ .item1 {
+  flex-basis: 20%;
+  text-align: center;
+  background-clip: #111;
+  color: #fff;
+  border: 1px solid white;
+  border-radius: 5px;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: last baseline;
+  margin: 30px;
+  padding: 30px;
+ }
+
+ .flex1{
+   background-color: rgb(207, 190, 190);
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   display: flex;
+   flex-direction: left;
+   flex-wrap: wrap;
+   flex-direction: row;
+   padding: 40px ;
+   align-content: center;
+   align-items:flex-end;
+   align-self: center;
+   height: 100%;
+ }
+
+ .item1:hover{
+     width: 300px;
+     height: 70%;
+     transition: 5s;
+     background-color: rgb(78, 67, 120);
+    
+ }
+
+ img:hover{
+     height: 11cm;
+     width: 7cm;
+ }
+
+
+ img{
+     height: 9cm;
+     width: 7cm;
+ } */
+
+

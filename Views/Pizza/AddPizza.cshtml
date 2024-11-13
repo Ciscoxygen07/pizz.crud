@@ -1,0 +1,23 @@
+@model PizzaRequestModel  //Model binding
+
+<p>Add a new Pizza</p>
+
+<form asp-action ="AddPizza" asp-controller = "Pizza" >
+
+<div>
+<label asp-for="Name">Name</label>
+<input type="text" asp-for="Name"> <br><br><br>
+
+<label  asp-for="Description">Description</label>
+<input type="text" asp-for="Description"> <br><br><br>
+
+<label  asp-for="IsAvailable">IsAvailable</label>
+<input type="checkbox" asp-for="IsAvailable"> <br><br><br>
+</div>
+ 
+ <div>
+<button type="submit" class="btn btn-primary" value = "submit" > submit </button>
+</div>
+
+</form>
+

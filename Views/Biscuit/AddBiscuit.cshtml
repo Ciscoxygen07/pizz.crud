@@ -1,0 +1,23 @@
+@model BiscuitRequestModel  //Model binding
+
+<p>Add a new Biscuit</p>
+
+<form asp-action ="AddBiscuit" asp-controller = "Biscuit" >
+
+<div>
+<label asp-for="Name">Biscuit Name</label>
+<input type="text"  asp-for="Name"> <br><br><br>
+
+<label  asp-for="Description">Biscuit Description</label>
+<input type="text"  asp-for="Description"> <br><br><br>
+
+<label  asp-for="IsAvailable">IsAvailable</label>
+<input type="checkbox"  asp-for="IsAvailable"> <br><br><br>
+</div>
+ 
+ <div>
+<button type="submit" class="btn btn-primary" value = "submit" > submit </button>
+</div>
+
+</form>
+

@@ -1,0 +1,47 @@
+@model List<Biscuit>   //Model binding
+
+<p>GetAllBiscuit</p>
+
+<div class="bisc" >
+   <table class = "table table-border table-responsive">
+   <thead>
+    <tr>
+       <th>Name</th>
+       <th>Description</th>
+       <th>IsAvailable</th>
+       <th>View</th>
+       <th>Update</th>
+       <th>Delete</th>
+    </tr>
+   </thead>
+    <tbody>
+    @foreach  (var item in Model)
+{
+   <tr>
+    <td>@item.Name</td>
+    <td>@item.Description</td>
+    <td>@item.IsAvailable</td>
+    <td><a asp-controller = "Biscuit" asp-action = "GetBiscuit" asp-route-id = "@item.Id" >Details</a></td>
+    <td><a asp-controller = "Biscuit" asp-action = "UpdateBiscuit" asp-route-id = "@item.Id" >Edit</a></td>
+    <td><a asp-controller = "Biscuit" asp-action = "DeleteBiscuit" asp-route-id = "@item.Id" >Delete</a></td>
+   </tr>
+}
+    </tbody>
+   </table>
+
+@* @foreach(var l in Model)
+{
+   <div class="flex1">
+  <div class="item1">
+   <img src="~/image/7k 100.jpg" alt="" width="100%">   
+ <h1 style="font-size: small;">    
+<h1>Name: @l.Name</h1>
+<h1>Description: @l.Description</h1>
+<h1>IsAvailable: @l.IsAvailable</h1>
+<a asp-controller = "Biscuit" asp-action = "UpdateBiscuit" asp-route-id = "@l.Id" >Edit</a>
+ <a asp-controller = "Biscuit" asp-action = "DeleteBiscuit" asp-route-id = "@l.Id" >Delete</a>
+    </h1> <br><br> 
+  </div>
+</div> 
+} *@
+
